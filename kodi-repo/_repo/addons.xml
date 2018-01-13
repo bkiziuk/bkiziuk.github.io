@@ -40,7 +40,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <summary>OpenSubtitles by OpenSubtitles.org</summary>
+    <summary>OpenSubtitles.org (BB)</summary>
     <description lang="en">Anonymously search and download subtitles for movies and TV-Series from OpenSubtitles.org without log-in. Search in 75 languages, 4.000.000+ subtitles, daily updates. </description>
 	<description lang="at">Pelis and Subtítulos TV en munches llingües, milenta de subtítulos traducíos y xubíos caldía. Descarga llibre dende la fonte, sofitu API, millones d'usuarios.</description>
 	<description lang="br">Istitloù Filmoù ha TV e meur a yezh, miliadoù a istitloù troet hag uskarget bemdez. Pellgargadenn digoust diouzh ar vammenn, skoazell an API, millionoù a implijerien.</description>
@@ -83,13 +83,11 @@
     <disclaimer>Works without log-in</disclaimer>
 	<news>
 v1.0.0 (2018-01-05)
-- changed name to service.subtitles.opensubtitles_bb to distinguish this fork
+- changed name to service.subtitles.opensubtitles_bb to distinguish this fork.
+  Fork of https://github.com/opensubtitles/service.subtitles.opensubtitles_by_opensubtitles. Based on version 5.2.14.
 - New feature: Optional conversion to .ass format that includes solid black background for downloaded subtitles.
   Conversion is done using pysubs2 library - https://github.com/tkarabela/pysubs2
   WARNING! - this addon requires pysub2 library to work properly
-v5.2.14 (2017-01-23)
-- Users are able to download subtitles as anonymous without authentication. Added localized descriptions, media files
-- New feature: Users are able to check for subtitles when Kodi is not playing, by using the manual search or by standing on an item and opening the subtitles search dialog (By key or by an external addon)  | @burekas
 	</news>
     <platform>all</platform>
 	<language></language>
