@@ -16,7 +16,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.pysubs2" name="pysubs2 module" version="0.0.1" provider-name="bkiziuk">
+<addon id="script.module.pysubs2" name="pysubs2 module" version="0.0.2" provider-name="bkiziuk">
     <requires>
         <import addon="xbmc.python" version="2.7.0"/>
     </requires>
