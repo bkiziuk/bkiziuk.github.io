@@ -3,7 +3,7 @@
 <addon id="service.subtitles.napiprojekt_bb" name="Napiprojekt.pl (BB)" version="1.0.0" provider-name="bkiziuk">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
-        <import addon="script.module.pysubs2" version="0.0.1"/>
+        <import addon="script.module.pysubs2" version="0.0.2"/>
     </requires>
     <extension point="xbmc.subtitle.module" library="service.py"/>
     <extension point="xbmc.addon.metadata">
@@ -35,7 +35,7 @@
        version="1.0.0"
        provider-name="bkiziuk">
    <requires>
-      <import addon="script.module.pysubs2" version="0.0.1"/>
+      <import addon="script.module.pysubs2" version="0.0.2"/>
  </requires>
   <extension point="xbmc.subtitle.module"
              library="service.py" />
