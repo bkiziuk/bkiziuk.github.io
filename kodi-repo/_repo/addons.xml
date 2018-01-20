@@ -16,7 +16,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.pysubs2" name="pysubs2 module" version="0.0.4" provider-name="bkiziuk">
+<addon id="script.module.pysubs2" name="pysubs2 module" version="0.0.5" provider-name="bkiziuk">
     <requires>
         <import addon="xbmc.python" version="2.7.0"/>
     </requires>
@@ -25,8 +25,8 @@
         <summary>Provides pysubs2 library functionality for Kodi addons</summary>
         <description>Provides pysubs2 library functionality for Kodi addons</description>
         <disclaimer>Purely for testing purposes.</disclaimer>
-        <news>v0.0.3  (2018-01-18)
-- Added notification for Ubuntu users checking through apt command</news>
+        <news>v0.0.5  (2018-01-18)
+- another test version</news>
         <platform>all</platform>
         <language></language>
         <license>MIT</license>
