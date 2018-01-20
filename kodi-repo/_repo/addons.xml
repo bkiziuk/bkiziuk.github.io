@@ -3,7 +3,7 @@
 <addon id="service.subtitles.napiprojekt_bb" name="Napiprojekt.pl (BB)" version="1.0.0" provider-name="bkiziuk">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
-        <import addon="script.module.pysubs2" version="0.0.2"/>
+        <import addon="script.module.pysubs2" version="0.0.3"/>
     </requires>
     <extension point="xbmc.subtitle.module" library="service.py"/>
     <extension point="xbmc.addon.metadata">
@@ -16,7 +16,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.pysubs2" name="pysubs2 module" version="0.0.2" provider-name="bkiziuk">
+<addon id="script.module.pysubs2" name="pysubs2 module" version="0.0.3" provider-name="bkiziuk">
     <requires>
         <import addon="xbmc.python" version="2.7.0"/>
     </requires>
@@ -25,7 +25,7 @@
         <summary>Provides pysubs2 library functionality for Kodi addons</summary>
         <description>Provides pysubs2 library functionality for Kodi addons</description>
         <disclaimer>Purely for testing purposes.</disclaimer>
-        <news>v0.0.2  (2018-01-18)
+        <news>v0.0.3  (2018-01-18)
 - Added notification for Ubuntu users checking through apt command</news>
         <platform>all</platform>
         <language></language>
@@ -48,7 +48,7 @@
        version="1.0.0"
        provider-name="bkiziuk">
    <requires>
-      <import addon="script.module.pysubs2" version="0.0.2"/>
+      <import addon="script.module.pysubs2" version="0.0.3"/>
  </requires>
   <extension point="xbmc.subtitle.module"
              library="service.py" />
