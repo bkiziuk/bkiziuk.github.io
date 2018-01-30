@@ -1,7 +1,0 @@
-v1.0.1 (2018-01-21)
-- adjusted to support a new pysubs2 plugin version
-1.0.0
-- changed name to service.subtitles.opensubtitles_bb to distinguish this fork.
-  Fork of https://github.com/opensubtitles/service.subtitles.opensubtitles_by_opensubtitles. Based on version 5.2.14.
-- New feature: Optional conversion to .ass format that includes solid black background for downloaded subtitles.
-  Conversion is done using pysubs2 library - https://github.com/tkarabela/pysubs2
