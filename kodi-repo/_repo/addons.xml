@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="service.subsmangler" name="Subtitles Mangler" version="0.0.6" provider-name="bkiziuk">
+<addon id="service.subsmangler" name="Subtitles Mangler" version="0.0.7" provider-name="bkiziuk">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
     </requires>
@@ -10,9 +10,14 @@
 		<description lang="en">Adjusts subtitles files to include black background. Supports: microDVD, SubRip, MPL2 and TMP formats. Optionally can automatically invoke subtitles search dialog if local subtitles are not detected. Also, allows to remove advertisement texts and texts for the Hearing Impaired. Doesn't require external plugins.</description>
         <description lang="pl">Konwertuje napisy dodając czarne tło. Obsługuje formaty microDVD, SubRip, MPL2 i TMP. Dodatkowo umożliwia automatyczne uruchamianie okna wyszukiwania napisów w sytuacji, gdy nie zostały wykryte lokalne napisy. Pozwala również na usuwanie z napisów podpisów reklamowych oraz znaczników dla niesłyszących. Nie wymaga zależnych wtyczek.</description>
         <disclaimer>Still under development</disclaimer>
-        <news>v0.0.6 (2018-02-05)
+        <news>v0.0.7 (2018-02-07)
+- confirmation dialog if subtitles search dialog should be opened the next time
+- unicode fixes
+- more Windows codepages added
+- online playback will not trigger subtitles window
+v0.0.6 (2018-02-05)
 - fixes for handling Boolean values correctly in config file
-- respecting of 'noautosubs' flag file/extension
+- respecting of 'noautosubs' flag file/extension when trying to open subtitles search dialog
 v0.0.5 (2018-02-04)
 - some code clean-up
 - regex auto-update
@@ -25,7 +30,7 @@ v0.0.3 (2018-02-01)
 v0.0.2 (2018-01-31)
 - initial regexp filtering
 v0.0.1  (2018-01-21)
-- initial test version</news>
+- initial test version with subtitles conversion mechanism</news>
         <platform>all</platform>
         <license>GNU General Public License v3.0</license>
         <forum></forum>
