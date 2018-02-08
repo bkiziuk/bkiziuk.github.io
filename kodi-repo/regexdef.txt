@@ -24,7 +24,6 @@
 [Ads_pl]
 .*napiprojekt.pl.*  # matches any line that includes phrase "napiprojekt.pl"
 .*Project Heaven.*
-.*proheaven.*
 .*tłumaczenie.*korekta.*  # matches any line that includes phrase "tłumaczenie" AND "korekta"
 .*podnapisi.net.*
 .*kinomania.*
