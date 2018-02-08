@@ -17,6 +17,9 @@
 
 # Ads secions include language specific definitions.
 # Only one section is loaded based on subtitles language designation in subtitles file name
+[Ads_en]
+.*advertisement.*
+
 [Ads_pl]
 .*napiprojekt.pl.*  # matches any line that includes phrase "napiprojekt.pl"
 .*Project Heaven.*
