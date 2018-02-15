@@ -20,20 +20,32 @@
 # General Ads section includes generic definitions applicable to any language
 [Ads]
 .*www.opensubtitles.org.*
-
+.*podnapisi.net.*
+.*SRT Converter.*
+.*www.osdb.link.*
+.*dvdrip.*
+.*hddvd.*
+.*23.976.*
 
 # Language specific Ads secions include language specific definitions.
 # Only one section is loaded based on subtitles language designation in subtitles file name
 # Language codes must confirm to ISO 639-2
 [Ads_eng]   # English
 .*sync.*corrections.*by.*
+.*subtitletools.com.*
 
 
 [Ads_pol]   # Polish
-.*napiprojekt.pl.*   # matches any line that includes phrase "napiprojekt.pl"
-.*Project Heaven.*
+.*napiprojekt.*   # matches any line that includes phrase "napiprojekt.pl"
+.*Project Haven.*
 .*tłumaczenie.*korekta.*   # matches any line that includes phrase "tłumaczenie" AND "korekta"
-.*podnapisi.net.*
 .*kinomania.*
 .*napisy24.*
 .*napisy:.*
+.*tłumaczenie:.*
+.*korekta:.*
+.*polish team.*
+.*ProHaven.*
+.*RebelSubTeam.*
+.*wersja:.*
+.*napisyinfo.*
