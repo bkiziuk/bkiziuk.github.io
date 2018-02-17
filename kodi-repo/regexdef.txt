@@ -19,26 +19,45 @@
 
 # General Ads section includes generic definitions applicable to any language
 [Ads]
+# sub sites & tools
 .*www.opensubtitles.org.*
 .*podnapisi.net.*
 .*SRT Converter.*
 .*www.osdb.link.*
+.*subtitletools.com.*
+# domains
+.*yahoo.com.*
+.*facebook.com.*
+.*gmail.com.*
+.*hotmail.com.*
+.*twitter.com.*
+# movie specs
+.*23.976.*
+.*720p.*
+.*1080p.*
+.*hevc.*
+.*x264.*
+.*x265.*
+.*divx.*
 .*dvdrip.*
 .*hddvd.*
-.*23.976.*
+.*bdrip.*
+.*bluray.*
+.*web.?dl.*
+.*hdtv.*
 
-# Language specific Ads secions include language specific definitions.
-# Only one section is loaded based on subtitles language designation in subtitles file name
+
+# Language specific Ads sections include language specific definitions.
+# Only one section is loaded based on subtitle language designation in subtitle file name
 # Language codes must confirm to ISO 639-2
 [Ads_eng]   # English
 .*sync.*corrections.*by.*
-.*subtitletools.com.*
 
 
 [Ads_pol]   # Polish
-.*napiprojekt.*   # matches any line that includes phrase "napiprojekt.pl"
+.*napiprojekt.*
 .*Project Haven.*
-.*tłumaczenie.*korekta.*   # matches any line that includes phrase "tłumaczenie" AND "korekta"
+.*tłumaczenie.*korekta.*
 .*kinomania.*
 .*napisy24.*
 .*napisy:.*
@@ -49,3 +68,6 @@
 .*RebelSubTeam.*
 .*wersja:.*
 .*napisyinfo.*
+.*Tłumaczenie ze słuchu.*
+.*oceń.*napisy.*
+.*grupa.*hatak.*
