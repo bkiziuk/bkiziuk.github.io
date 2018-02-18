@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+    <addon id="repository.bkiziuk_test" name="bkiziuk test Kodi repo" version="1.0.1" provider-name="bkiziuk">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="bkiziuk test Kodi repo">
+            <info compressed="false">https://bkiziuk.github.io/kodi-repo/test/addons.xml</info>
+            <checksum>https://bkiziuk.github.io/kodi-repo/test/addons.xml.md5</checksum>
+            <datadir zip="true">https://bkiziuk.github.io/kodi-repo/test/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>bkiziuk test Kodi repo</summary>
+            <description>bkiziuk Kodi repo</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="service.subsmangler" name="Subtitles Mangler" version="0.0.14" provider-name="bkiziuk">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
     </requires>
     <extension point="xbmc.service" library="service.py" start="login"/>
     <extension point="xbmc.addon.metadata">
-		<summary lang="en">Subtitles Mangler</summary>
+		<summary lang="en">A comprehensive subtitle companion</summary>
 		<description lang="en">Adjusts subtitles files to include black background. Supports: microDVD, SubRip, MPL2 and TMP formats. Automatically invokes subtitle search dialog if local subtitles are not detected. Removes subtitle files if original video was deleted. Also, allows to remove advertisement texts and texts for the Hearing Impaired. Doesn't require external plugins.</description>
         <description lang="pl">Konwertuje napisy dodając czarne tło. Obsługuje formaty microDVD, SubRip, MPL2 i TMP. Umożliwia automatyczne uruchamianie okna wyszukiwania napisów w sytuacji, gdy nie zostały wykryte lokalne napisy. Usuwa pliki z napisami dla skasowanych filmów. Pozwala również na usuwanie z napisów podpisów reklamowych oraz znaczników dla niesłyszących. Nie wymaga zależnych wtyczek.</description>
         <disclaimer>A comprehensive subtitle companion</disclaimer>
@@ -65,23 +82,6 @@ v0.0.1  (2018-01-21)
             <fanart></fanart>
             <screenshot></screenshot>
         </assets>
-    </extension>
-</addon>
-
-    <addon id="repository.bkiziuk" name="bkiziuk Kodi repo" version="1.0.1" provider-name="bkiziuk">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="bkiziuk Kodi repo">
-            <info compressed="false">https://bkiziuk.github.io/kodi-repo/_repo/addons.xml</info>
-            <checksum>https://bkiziuk.github.io/kodi-repo/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://bkiziuk.github.io/kodi-repo/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>bkiziuk Kodi repo</summary>
-            <description>bkiziuk Kodi repo</description>
-            <platform>all</platform>
     </extension>
 </addon>
 </addons>
