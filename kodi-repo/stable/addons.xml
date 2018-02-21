@@ -61,7 +61,7 @@ v0.0.1  (2018-01-21)
 		<email></email>
         <broken></broken>
         <assets>
-            <icon></icon>
+            <icon>resources/icon.png</icon>
             <fanart></fanart>
             <screenshot></screenshot>
         </assets>
