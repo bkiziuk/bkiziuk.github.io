@@ -1,0 +1,47 @@
+v0.0.16 (2018-02-24)
+- fix for opening YesNo dialog immediatelly after SubSearch dialog if new playback was started without manual stop of the previous one
+v0.0.15 (2018-02-23)
+- added ability to convert local subtitle files accompanying played video file
+- added Hungarian UI language
+v0.0.14 (2018-02-16)
+- scanning for subtitles will not be triggered immediatelly after video has ended
+v0.0.13 (2018-02-15)
+- fixed skipping next subtitle entry on list if current subtitle was deleted
+v0.0.12 (2018-02-14)
+- improved progress bar calculation
+- detection of forced internal subtitles and audio tracks matching preferred language
+v0.0.11 (2018-02-13)
+- unicode fixes
+- subtitle file matching against video files fixes
+- added possibility of extending subtitle display time to match minimum calculated time
+v0.0.10 (2018-02-11)
+- added possibility to automatically remove subtitle files for nonexisting videos
+v0.0.9 (2018-02-09)
+- improve extension detection of variable lengths
+- option not to pause playback during conversion
+v0.0.8 (2018-02-08)
+- added support for generic Ads section
+- added customizing of foreground/background colors
+- reorganized settings
+- improved Exception handling
+v0.0.7 (2018-02-07)
+- confirmation dialog if subtitles search dialog should be opened the next time
+- unicode fixes
+- more Windows codepages added
+- online playback will not trigger subtitles window
+v0.0.6 (2018-02-05)
+- fixes for handling Boolean values correctly in config file
+- respecting of 'noautosubs' flag file/extension when trying to open subtitles search dialog
+v0.0.5 (2018-02-04)
+- some code clean-up
+- regex auto-update
+- subtitles search dialog auto invoke
+- minimum xbmc.python: 2.25.0 - due to API availability
+v0.0.4 (2018-02-02)
+- separate log file with logrotation
+v0.0.3 (2018-02-01)
+- custom log filtering
+v0.0.2 (2018-01-31)
+- initial regexp filtering
+v0.0.1  (2018-01-21)
+- initial test version with subtitles conversion mechanism
