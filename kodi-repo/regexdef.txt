@@ -28,6 +28,7 @@
 .*SRT Converter.*
 .*www.osdb.link.*
 .*subtitletools.com.*
+.*subedit.*
 # domains
 .*yahoo.com.*
 .*facebook.com.*
@@ -35,13 +36,14 @@
 .*hotmail.com.*
 .*twitter.com.*
 # movie specs
+.*movie info:.*
 .*23.976.*
 .*720p.*
 .*1080p.*
 .*hevc.*
-.*x264.*
-.*x265.*
+.*[hx]{1}26[45]{1}.*
 .*divx.*
+.*xvid.*
 .*dvdrip.*
 .*hddvd.*
 .*bdrip.*
@@ -61,6 +63,7 @@
 .*napiprojekt.*
 .*Project Haven.*
 .*tłumaczenie.*korekta.*
+.*tłumaczenie.*poprawki.*
 .*kinomania.*
 .*napisy24.*
 .*napisy:.*
