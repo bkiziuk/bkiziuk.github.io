@@ -1,3 +1,11 @@
+v0.0.23 (2018-03-06)
+- add option to maintain bigger space between lines so that background doesn't overlap
+v0.0.22 (2018-03-05)
+- try to guess subtitle file encoding based on its language
+- add option to remove unprocessed subs during housekeeping
+- add icon
+v0.0.21
+- internal test build
 v0.0.20 (2018-03-01)
 - fix Unicode crash in logging routine
 - use datadir for temp files instead of Kodi's temp
