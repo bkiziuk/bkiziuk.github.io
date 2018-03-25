@@ -76,7 +76,7 @@
 .*ProHaven.*
 .*RebelSubTeam.*
 .*wersja:.*
-.*napisyinfo.*
+.*napisy.?info.*
 .*Tłumaczenie ze słuchu.*
 .*oceń.*napisy.*
 .*grupa.*hatak.*
