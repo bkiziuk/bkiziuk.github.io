@@ -23,34 +23,34 @@
 # General Ads section includes generic definitions applicable to any language
 [Ads]
 # sites & tools
-.*www.opensubtitles.org.*
+.*netflix.*
+.*opensubtitles.org.*
 .*podnapisi.net.*
 .*SRT Converter.*
-.*www.osdb.link.*
-.*subtitletools.com.*
 .*subedit.*
-.*netflix.*
+.*subtitletools.com.*
+.*www.osdb.link.*
 # domains
-.*yahoo.com.*
 .*facebook.com.*
 .*gmail.com.*
 .*hotmail.com.*
 .*twitter.com.*
+.*yahoo.com.*
 # movie specs
-.*movie info:.*
 .*23.976.*
 .*720p.*
 .*1080p.*
-.*hevc.*
-.*[hx]{1}26[45]{1}.*   # matches: x264 h264 x265 h265
-.*divx.*
-.*xvid.*
-.*dvd.?rip.*
-.*hd.?dvd.*
 .*bd.?rip.*
 .*blu.?ray.*
-.*web.?dl.*
+.*divx.*
+.*dvd.?rip.*
 .*hdtv.*
+.*hevc.*
+.*hd.?dvd.*
+.*[hx]{1}26[45]{1}.*   # matches: x264 h264 x265 h265
+.*movie info:.*
+.*web.?dl.*
+.*xvid.*
 
 
 # Language specific Ads sections include language specific definitions.
@@ -61,23 +61,24 @@
 
 
 [Ads_pol]   # Polish
-.*napiprojekt.*
-.*Project Haven.*
-.*tłumaczenie.*korekta.*
-.*tłumaczenie.*poprawki.*
+.*dystrybucja:.*
+.*facebook.pl.*
+.*grupa.*hatak.*
+.*heroesmovies.pl.*
 .*kinomania.*
+.*korekta:.*
+.*napiprojekt.*
 .*napisy24.*
 .*napisy:.*
-.*tłumaczenie:.*
-.*korekta:.*
-.*tekst:.*
-.*dystrybucja:.*
+.*napisy.?info.*
+.*oceń.*napisy.*
 .*polish team.*
 .*ProHaven.*
+.*Project Haven.*
 .*RebelSubTeam.*
-.*wersja:.*
-.*napisy.?info.*
+.*tekst:.*
+.*tłumaczenie.*korekta.*
+.*tłumaczenie.*poprawki.*
+.*tłumaczenie:.*
 .*Tłumaczenie ze słuchu.*
-.*oceń.*napisy.*
-.*grupa.*hatak.*
-.*facebook.pl.*
+.*wersja:.*
