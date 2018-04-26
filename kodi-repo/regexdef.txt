@@ -61,6 +61,7 @@
 
 
 [Ads_pol]   # Polish
+.*dopasowanie:.*
 .*dystrybucja:.*
 .*facebook.pl.*
 .*grupa.*hatak.*
@@ -68,6 +69,7 @@
 .*kinomania.*
 .*korekta:.*
 .*napiprojekt.*
+.*napisy.org.*
 .*napisy24.*
 .*napisy:.*
 .*napisy.?info.*
@@ -76,6 +78,7 @@
 .*ProHaven.*
 .*Project Haven.*
 .*RebelSubTeam.*
+.*synchro:.*
 .*tekst:.*
 .*tłumaczenie.*korekta.*
 .*tłumaczenie.*poprawki.*
