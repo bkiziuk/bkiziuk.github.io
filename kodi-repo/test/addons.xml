@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="service.subsmangler" name="Subtitles Mangler" version="0.0.26" provider-name="bkiziuk">
+<addon id="service.subsmangler" name="Subtitles Mangler" version="0.0.27" provider-name="bkiziuk">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
     </requires>
@@ -32,7 +32,9 @@
         <disclaimer lang="en">A comprehensive subtitle companion</disclaimer>
         <disclaimer lang="pl">Wszechstronny asystent napisów</disclaimer>
         <disclaimer lang="hu">Egy teljeskörű felirat asszisztens</disclaimer>
-        <news>v0.0.26 (2018-04-03)
+        <news>v0.0.27 (2018-04-26)
+- code clean-up (remove unused imports)
+v0.0.26 (2018-04-03)
 - fix: enabling existing 'ass' subtitles didn't work due to lack of full path
 - add fanart
 v0.0.25 (2018-03-26)
