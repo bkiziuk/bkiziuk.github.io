@@ -69,10 +69,9 @@
 .*kinomania.*
 .*korekta:.*
 .*napiprojekt.*
-.*napisy.org.*
+.*napisy\..*
 .*napisy24.*
 .*napisy:.*
-.*napisy.?info.*
 .*oceń.*napisy.*
 .*polish team.*
 .*ProHaven.*
