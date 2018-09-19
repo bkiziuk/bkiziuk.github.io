@@ -17,11 +17,17 @@
     </extension>
 </addon>
 
-<addon id="service.subsmangler" name="Subtitles Mangler" version="0.5.0" provider-name="bkiziuk">
+<addon id="service.subsmangler" name="Subtitles Mangler" version="1.0.1" provider-name="bkiziuk">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
     </requires>
     <extension point="xbmc.service" library="service.py" start="login"/>
+    <extension point="kodi.context.item" library="resources/lib/contextmenu.py">
+        <item>
+            <label>32100</label>
+            <visible>[Container.Content(movies) | Container.Content(tvshows)] + ![ListItem.IsParentFolder | ListItem.IsCollection]</visible> <!--Container.Content(movies) | Container.Content(tvshows)-->
+        </item>
+    </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="cs_CZ">Kompletní průvodce titukly</summary>
         <summary lang="de_DE">Ein umfassendes Tool für Untertitel</summary>
