@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="service.subsmangler" name="Subtitles Mangler" version="1.0.4" provider-name="bkiziuk">
+<addon id="service.subsmangler" name="Subtitles Mangler" version="1.0.5" provider-name="bkiziuk">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
     </requires>
