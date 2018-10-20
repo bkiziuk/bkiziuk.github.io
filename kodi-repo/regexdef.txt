@@ -36,6 +36,8 @@
 .*hotmail.com.*
 .*twitter.com.*
 .*yahoo.com.*
+# email addresses
+.*[\w-\.]+@([\w-]+\.)+[\w-]{2,3}.*
 # movie specs
 .*23.976.*
 .*720p.*
@@ -61,6 +63,7 @@
 
 
 [Ads_pol]   # Polish
+.*chomikuj.pl.*
 .*dopasowanie:.*
 .*dystrybucja:.*
 .*facebook.pl.*
