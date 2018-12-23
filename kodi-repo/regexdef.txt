@@ -30,6 +30,7 @@
 .*subedit.*
 .*subtitletools.com.*
 .*www.osdb.link.*
+.*addic7ed.com.*
 # domains
 .*facebook.com.*
 .*gmail.com.*
@@ -59,6 +60,7 @@
 # Language codes must confirm to ISO 639-2
 [Ads_eng]   # English
 .*sync.*corrections.*by.*
+.*addic7ed.*
 
 
 [Ads_pol]   # Polish
