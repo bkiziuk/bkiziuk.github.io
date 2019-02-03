@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="repository.bkiziuk_test" name="bkiziuk test Kodi repo" version="1.0.1" provider-name="bkiziuk">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="bkiziuk test Kodi repo">
-            <info compressed="false">https://bkiziuk.github.io/kodi-repo/test/addons.xml</info>
-            <checksum>https://bkiziuk.github.io/kodi-repo/test/addons.xml.md5</checksum>
-            <datadir zip="true">https://bkiziuk.github.io/kodi-repo/test/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>bkiziuk test Kodi repo</summary>
-            <description>bkiziuk Kodi repo</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="service.subsmangler" name="Subtitles Mangler" version="1.1.1" provider-name="bkiziuk">
+<addon id="service.subsmangler" name="Subtitles Mangler" version="1.2.1" provider-name="bkiziuk">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
     </requires>
@@ -49,7 +32,9 @@
         <disclaimer lang="hu_HU">Egy teljeskörű felirat asszisztens</disclaimer>
         <disclaimer lang="pl_PL">Wszechstronny asystent napisów</disclaimer>
         <disclaimer lang="sk_SK">Kompletný sprievodca titukly</disclaimer>
-        <news>v1.1.1 (2018-12-23)
+        <news>v1.2.1 (2019-02-03)
+- add blank space before and after each line for better background outlook
+v1.2.0 (2019-01-18)
 - add configuration option to prevent showing confirmation dialog if no subtitles file was downloaded
 - add ability to shrink subtitle time if it overlaps the next subtitle
 v1.1.0 (2018-10-27)
@@ -68,6 +53,23 @@ v1.0.0 (2018-09-09)
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
         </assets>
+    </extension>
+</addon>
+
+    <addon id="repository.bkiziuk_test" name="bkiziuk test Kodi repo" version="1.0.1" provider-name="bkiziuk">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="bkiziuk test Kodi repo">
+            <info compressed="false">https://bkiziuk.github.io/kodi-repo/test/addons.xml</info>
+            <checksum>https://bkiziuk.github.io/kodi-repo/test/addons.xml.md5</checksum>
+            <datadir zip="true">https://bkiziuk.github.io/kodi-repo/test/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>bkiziuk test Kodi repo</summary>
+            <description>bkiziuk Kodi repo</description>
+            <platform>all</platform>
     </extension>
 </addon>
 </addons>
