@@ -33,6 +33,7 @@
 .*addic7ed.com.*
 # domains
 .*facebook.com.*
+.*fb.com.*
 .*gmail.com.*
 .*hotmail.com.*
 .*twitter.com.*
@@ -81,6 +82,7 @@
 .*ProHaven.*
 .*Project Haven.*
 .*RebelSubTeam.*
+.*SkyTeamPoland.*
 .*synchro.*:.*
 .*tekst.*:.*
 .*tłumaczenie.*korekta.*
