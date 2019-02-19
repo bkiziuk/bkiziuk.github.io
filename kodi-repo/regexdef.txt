@@ -85,6 +85,7 @@
 .*SkyTeamPoland.*
 .*synchro.*:.*
 .*tekst.*:.*
+.*tłumaczenie.*dopasowanie.*
 .*tłumaczenie.*korekta.*
 .*tłumaczenie.*poprawki.*
 .*tłumaczenie.*:.*
