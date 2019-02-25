@@ -82,7 +82,7 @@
 .*ProHaven.*
 .*Project Haven.*
 .*RebelSubTeam.*
-.*SkyTeamPoland.*
+.*Sky.*Team.*Poland.*
 .*synchro.*:.*
 .*tekst.*:.*
 .*tłumaczenie.*dopasowanie.*
@@ -90,5 +90,6 @@
 .*tłumaczenie.*poprawki.*
 .*tłumaczenie.*:.*
 .*Tłumaczenie ze słuchu.*
+.*napisy.*dopasowane.*wersji.*
 .*Napisy ze słuchu.*
 .*wersja:.*
