@@ -1,3 +1,18 @@
+v1.3.1 (2019-04-01)
+- fix settings display in Kodi 17.6
+v1.3.0 (2019-02-10)
+- add ability to convert subtitles without enforcing .ass format (and therefore adding custom font/background color and opacity). In this case file is saved in SubRip format.
+- please note that the output file extension was changed to .utf. Therefore existing .ass subtitle file may be reconverted automatically at the next playback.
+v1.2.0 (2019-01-18)
+- add configuration option to prevent showing confirmation dialog if no subtitles file was downloaded
+- add ability to shrink subtitle time if it overlaps the next subtitle
+v1.1.0 (2018-10-27)
+- implement context menu for easier management of 'noautosubs' file/extension
+- change default logging destination to separate log file
+- decrease housekeeping timer only if player is idle
+- ignore 'plugin://' media path
+v1.0.0 (2018-09-09)
+- first release for Official Kodi Repo
 v0.0.35 (2018-08-31)
 - add onAVStarted event support for Kodi 18 compatibility
 - add BusyDialogNoCancel window support for Kodi 18 compatibility
